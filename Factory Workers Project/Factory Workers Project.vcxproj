@@ -129,6 +129,9 @@
   <ItemGroup>
     <ClCompile Include="Factory Workers Project.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\miste\Downloads\Employee.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
