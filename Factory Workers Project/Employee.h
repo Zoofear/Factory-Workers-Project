@@ -56,11 +56,6 @@ public:
 	{
 		cout << "Name:" << setw(3) << name << endl;
 		cout << "Employee Number:" << setw(3) << empnumber << endl;
-		
-		//adding / character to string to output a formatted date
-		hiredate.insert(2, "/");
-		hiredate.insert(5, "/");
-
 		cout << "Date Hired:" << setw(3) << hiredate << endl;
 	}
 

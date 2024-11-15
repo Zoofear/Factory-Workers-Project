@@ -13,7 +13,12 @@ public:
 
 	//Constructor
 
-		ShiftSuperVisor(double as = 0, double ab = 0) :ansalary(as), anbonus(ab) {}
+		ShiftSuperVisor(string n = "NAME", int e = 0, string h = "0", double as = 0, double ab = 0) :ansalary(as), anbonus(ab) 
+		{
+			Employee::setName(n);
+			Employee::setEmpNumber(e);
+			Employee::setHireDate(h);
+		}
 
 		//Functions
 

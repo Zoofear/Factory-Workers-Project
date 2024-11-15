@@ -14,7 +14,9 @@ int main()
 	
 	ProductionWorker Paul("Paul Jones", 12345, "10282024", 1, 20.25);
 	ProductionWorker Harriet("Harriet Smith", 54321, "06152024", 2, 25.5);
+	ShiftSuperVisor Elmer("Elmer Velasquez", 100325, "01172024", 70000, 1000);
 
 	Paul.print();
 	Harriet.print();
+	Elmer.print();
 }
