@@ -127,10 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Factory Workers Project.cpp" />
+    <ClCompile Include="ShiftSuperVisor.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\miste\Downloads\Employee.h" />
+    <ClInclude Include="ShiftSuperVisor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
