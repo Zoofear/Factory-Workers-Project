@@ -57,7 +57,7 @@ using namespace std;
 		cout << "Monthly Bonus:" << setw(3) << "$" << setprecision(2) << mobonus << endl;
 
 		//Outputs the required training hours
-		cout << "Required Training Hours:" << setw(3) << setprecsion(1) << reqthours << endl;
+		cout << "Required Training Hours:" << setw(3) << setprecision(1) << reqthours << endl;
 
 		//Outputs the attended training hnours
 		cout << "Attended Training Hours:" << setw(3) << setprecision(1) << atdthours << endl;
