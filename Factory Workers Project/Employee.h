@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <iomanip>
+#include <string>
 using namespace std;
 
 class Employee 
@@ -54,8 +55,8 @@ public:
 	void print()
 	{
 		cout << "Name:" << setw(3) << name << endl;
-		cout << "Employee Number:" << setw(3) << name << endl;
-		cout << "Date Hired:" << setw(3) << endl;
+		cout << "Employee Number:" << setw(3) << empnumber << endl;
+		cout << "Date Hired:" << setw(3) << hiredate << endl;
 	}
 
 private:

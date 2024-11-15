@@ -12,8 +12,8 @@ using namespace std;
 int main()
 {
 	
-	ProductionWorker Paul(1, 20.25);
-	ProductionWorker Harriet(2, 25.5);
+	ProductionWorker Paul("Paul Jones", 12345, 10282024, 1, 20.25);
+	ProductionWorker Harriet("Harriet Smith", 54321, 6152024, 2, 25.5);
 
 	Paul.print();
 	Harriet.print();
