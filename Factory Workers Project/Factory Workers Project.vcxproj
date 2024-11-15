@@ -132,6 +132,7 @@
     <ClInclude Include="TeamLeader.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ProductionWorker.cpp" />
     <ClCompile Include="TeamLeader.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
