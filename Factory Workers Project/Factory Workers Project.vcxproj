@@ -127,10 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Factory Workers Project.cpp" />
+    <ClInclude Include="C:\Users\miste\Downloads\Employee.h" />
+    <ClInclude Include="C:\Users\miste\Downloads\ProductionWorker.h" />
+    <ClInclude Include="TeamLeader.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\miste\Downloads\Employee.h" />
+    <ClCompile Include="C:\Users\miste\Downloads\ProductionWorker.cpp" />
+    <ClCompile Include="TeamLeader.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
