@@ -50,9 +50,13 @@ public:
 	//Prints the information
 	void ProductionWorker::print()
 	{
+		
 		//Checks to make sure variables are usable
 		ProductionWorker::variableCheck();
 		
+		//Title
+		cout << :"Production Worker:" << endl;
+
 		//Prints out the employee information from the previous class
 		Employee::print();
 
