@@ -73,5 +73,5 @@ void setShift(int x);
 		}
 
 		//Output for the hourly pay
-		cout << "Hourly Pay Rate:" << setw(3) << "$" << setprecision(2) << payrate << endl;
+		cout << "Hourly Pay Rate:" << setw(3) << "$" << setprecision(4) << payrate << endl;
 	}
