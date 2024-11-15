@@ -128,7 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="C:\Users\miste\Downloads\ProductionWorker.cpp" />
-    <ClCompile Include="Factory Workers Project.cpp" />
+    <ClCompile Include="Factory Workers Project Test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\miste\Downloads\Employee.h" />
