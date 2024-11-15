@@ -6,10 +6,6 @@
 #include "ProductionWorker.h"
 using namespace std;
 
-class ProductionWorker : public Employee
-{
-public:
-
 	//Constructor
 
 	ProductionWorker(int s = 1, int p = 0) :shift(s), payrate(p) {}
@@ -86,13 +82,3 @@ public:
 		//Output for the hourly pay
 		cout << "Hourly Pay Rate:" << setw(3) << "$" << setprecision(2) << payrate << endl;
 	}
-
-private:
-
-	//Variable that acts a boolean, 1 = dayshift, 2 equals nightshift
-	int shift;
-
-	//Variable that shows the hourly pay rate for the employee
-	double payrate;
-};
-
