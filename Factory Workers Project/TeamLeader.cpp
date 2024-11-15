@@ -6,13 +6,6 @@
 
 using namespace std;
 
-class TeamLeader : public Employee
-{
-public:
-
-//Constructor
-
-	TeamLeader(double m = 0, double r = 0, double a = 0) : mobonus(m), reqthours(r), atdhours(a) {}
 
 //Functions
 
@@ -35,7 +28,7 @@ public:
 	double returnAttendedHours();
 	
 	//Checks the variables mobonus, reqthours, and atdthours are positive and valid
-	void TeamLeader::variableChecker()
+	void TeamLeader::variableCheck()
 	{
 		//Variable checker
 		if (mobonus < 0 || reqthours < 0 || atdthours < 0)
@@ -58,7 +51,7 @@ public:
 		ProductionWorker::print();
 
 		//Checks the variables in this class to make sure theyre usable
-		TeamLeader::variableChecker();
+		TeamLeader::variableCheck();
 
 		//Outputs the monthly bonus
 		cout << "Monthly Bonus:" << setw(3) << "$" << setprecision(2) << mobonus << endl;
@@ -70,16 +63,3 @@ public:
 		cout << "Attended Training Hours:" << setw(3) << setprecision(1) << atdthours << endl;
 
 	}
-
-private:
-
-	//Monthly bonus amount
-	double mobonus;
-
-	//Number of required training hours
-	double reqthours;
-
-	//Number of attended training hours
-	double atdthours;
-
-};

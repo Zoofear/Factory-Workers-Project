@@ -55,7 +55,7 @@ public:
 	}
 
 	//Checks the variables mobonus, reqthours, and atdthours are positive and valid
-	void variableChecker();
+	void variableCheck();
 
 	//Prints the information  from employee class, produciton worker class, and the information in the TeamLeader Class
 	void print();
