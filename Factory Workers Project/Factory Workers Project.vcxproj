@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="ProductionWorker.h" />
     <ClInclude Include="TeamLeader.h" />
   </ItemGroup>
   <ItemGroup>
