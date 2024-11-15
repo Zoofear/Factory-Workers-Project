@@ -14,7 +14,7 @@ public:
 
 //Constructor
 
-	TeamLeader(double m = 0, double r = 0, double a = 0) : mobonus(m), reqthours(r), atdhours(a) {}
+	TeamLeader(double m = 0, double r = 0, double a = 0) : mobonus(m), reqthours(r), atdthours(a) {}
 
 //Functions
 

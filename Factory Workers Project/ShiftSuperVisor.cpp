@@ -44,7 +44,7 @@ using namespace std;
 		Employee::print();
 
 		//Annual salary print
-		cout << "Annual Salary:" << setw(3) << "$" << setprecision(2) << anasalary << endl;
+		cout << "Annual Salary:" << setw(3) << "$" << setprecision(2) << ansalary << endl;
 		
 		//Production bonus print
 		cout << "Annual Bonus:" << setw(3) << "$" << setprecision(2) << anbonus << endl;
