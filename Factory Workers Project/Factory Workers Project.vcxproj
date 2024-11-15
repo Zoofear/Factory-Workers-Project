@@ -128,11 +128,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="C:\Users\miste\Downloads\ProductionWorker.cpp" />
+    <ClCompile Include="C:\Users\miste\Downloads\ShiftSuperVisor.cpp" />
     <ClCompile Include="Factory Workers Project Test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\miste\Downloads\Employee.h" />
     <ClInclude Include="C:\Users\miste\Downloads\ProductionWorker.h" />
+    <ClInclude Include="C:\Users\miste\Downloads\ShiftSuperVisor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
