@@ -127,16 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\miste\Downloads\ProductionWorker.cpp" />
-    <ClCompile Include="C:\Users\miste\Downloads\ShiftSuperVisor.cpp" />
-    <ClCompile Include="C:\Users\miste\Downloads\TeamLeader.cpp" />
     <ClCompile Include="Factory Workers Project Test.cpp" />
+    <ClCompile Include="ProductionWorker.cpp" />
+    <ClCompile Include="ShiftSuperVisor.cpp" />
+    <ClCompile Include="TeamLeader.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\miste\Downloads\Employee.h" />
-    <ClInclude Include="C:\Users\miste\Downloads\ProductionWorker.h" />
-    <ClInclude Include="C:\Users\miste\Downloads\ShiftSuperVisor.h" />
-    <ClInclude Include="C:\Users\miste\Downloads\TeamLeader.h" />
+    <ClInclude Include="Employee.h" />
+    <ClInclude Include="ProductionWorker.h" />
+    <ClInclude Include="ShiftSuperVisor.h" />
+    <ClInclude Include="TeamLeader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

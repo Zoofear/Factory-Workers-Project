@@ -6,17 +6,10 @@
 #include "ProductionWorker.h"
 using namespace std;
 
-class ProductionWorker : public Employee
-{
-public:
-
-	//Constructor
-
-	ProductionWorker(int s = 1, int p = 0) :shift(s), payrate(p) {}
 
 	//Functions
 
-	void setShift(int x)
+void setShift(int x);
 
 	void setPayrate(double x);
 
@@ -29,7 +22,7 @@ public:
 	{
 
 		//Shift variable checker
-		if (shift != 1 || shift != 2)
+		if (shift != 1 && shift != 2)
 		{
 			//Error message
 			cout << "Error processing the shift" << endl;
@@ -43,7 +36,7 @@ public:
 			cout << "You cannot be payed a negative amount" << endl;
 
 			//Exits the function
-			exit(1)
+			exit(1);
 		}
 	}
 
@@ -57,14 +50,14 @@ public:
 		Employee::print();
 
 		//If true, outputs Day for the shift
-		if (string == 1)
+		if (shift == 1)
 		{
 			//Outputting the information
 			cout << "Shift:" << setw(3) << "Day" << endl;
 		}
 	
 		//If false, outputs Night for the shift
-		else if (string == 2)
+		else if (shift == 2)
 		{
 			//Outputting the information
 			cout << "Shift:" << setw(3) << "Night" << endl;
@@ -82,13 +75,3 @@ public:
 		//Output for the hourly pay
 		cout << "Hourly Pay Rate:" << setw(3) << "$" << setprecision(2) << payrate << endl;
 	}
-
-private:
-
-	//Variable that acts a boolean, 1 = dayshift, 2 equals nightshift
-	int shift;
-
-	//Variable that shows the hourly pay rate for the employee
-	double payrate;
-};
-

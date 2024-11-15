@@ -6,14 +6,6 @@
 
 using namespace std;
 
-class ShiftSuperVisor : public Employee
-{
-public:
-
-//Constructor
-
-	ShiftSuperVisor(double as = 0, double ab = 0) :ansalary(as), anbonus(ab) {}
-
 //Functions
 		
 	void setSalary(double x);
@@ -28,7 +20,7 @@ public:
 	void ShiftSuperVisor::variableCheck()
 	{
 		//Check for the variables
-		if (anasalary < 0 || anbonus < 0)
+		if (ansalary < 0 || anbonus < 0)
 		{
 			//Error output message
 			cout << "You cannot be paid a negative number" << endl;
@@ -57,12 +49,3 @@ public:
 		//Production bonus print
 		cout << "Annual Bonus:" << setw(3) << "$" << setprecision(2) << anbonus << endl;
 	}
-
-	private:
-
-		//The annual salary of the Shift Supervisor
-		double ansalary;
-
-		//The production bonus the Shift Supervisor earned
-		double anbonus;
-}; 

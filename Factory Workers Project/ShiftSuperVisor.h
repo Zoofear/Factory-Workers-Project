@@ -42,7 +42,7 @@ public:
 			}
 
 			//This function takes the variables anasalary and anbonus and makes sure they are usable by the class
-			void variableChecker();
+			void variableCheck();
 
 			//This function uses the print function from the employee class to print the parent class and the additional information from this class
 			void print();

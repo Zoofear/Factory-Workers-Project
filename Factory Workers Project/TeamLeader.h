@@ -4,11 +4,11 @@
 
 #include <iostream>
 #include <iomanip>
-#include "ProdutionWorker.h"
+#include "ProductionWorker.h"
 
 using namespace std;
 
-class TeamLeader : public Employee
+class TeamLeader : public ProductionWorker
 {
 public:
 
@@ -55,7 +55,7 @@ public:
 	}
 
 	//Checks the variables mobonus, reqthours, and atdthours are positive and valid
-	void variableChecker();
+	void variableCheck();
 
 	//Prints the information  from employee class, produciton worker class, and the information in the TeamLeader Class
 	void print();

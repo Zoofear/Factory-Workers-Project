@@ -51,7 +51,7 @@ public:
 	}
 
 //Prints out the classes information
-	void printEmployee()
+	void print()
 	{
 		cout << "Name:" << setw(3) << name << endl;
 		cout << "Employee Number:" << setw(3) << name << endl;
