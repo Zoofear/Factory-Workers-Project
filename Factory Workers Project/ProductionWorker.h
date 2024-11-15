@@ -11,7 +11,7 @@ public:
 
 	//Constructor
 
-	ProductionWorker(int s = 1, int p = 0) :shift(s), payrate(p) {}
+	ProductionWorker(int s = 1, double p = 0) :shift(s), payrate(p) {}
 
 	//Functions
 
