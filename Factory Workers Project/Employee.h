@@ -11,7 +11,7 @@ class Employee
 public:
 
 //Constructor
-	Employee(string n = "NAME", int e = 0, int h = 0): name(n), empnumber(e), hiredate(h){}
+	Employee(string n = "NAME", int e = 0, string h = "0") : name(n), empnumber(e), hiredate(h) {}
 
 //Functions
 	
@@ -28,7 +28,7 @@ public:
 	}
 	
 //Takes in the int x and assigns it to the variable hiredate
-	void setHireDate(int x)
+	void setHireDate(string x)
 	{
 		hiredate = x;
 	}
@@ -46,7 +46,7 @@ public:
 	}
 
 //Takes the int hiredate and returns it as an output
-	int returnHireDate()
+	string returnHireDate()
 	{
 		return hiredate;
 	}
@@ -56,6 +56,11 @@ public:
 	{
 		cout << "Name:" << setw(3) << name << endl;
 		cout << "Employee Number:" << setw(3) << empnumber << endl;
+		
+		//adding / character to string to output a formatted date
+		hiredate.insert(2, "/");
+		hiredate.insert(5, "/");
+
 		cout << "Date Hired:" << setw(3) << hiredate << endl;
 	}
 
@@ -66,6 +71,6 @@ private:
 //Employee number
 	int empnumber;
 //Employee hire date
-	int hiredate;
+	string hiredate;
 
 };

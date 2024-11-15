@@ -11,7 +11,7 @@ public:
 
 	//Constructor
 
-	ProductionWorker(string n = "NAME", int e = 0, int h = 0,int s = 1, double p = 0) :shift(s), payrate(p) 
+	ProductionWorker(string n = "NAME", int e = 0, string h = "0", int s = 1, double p = 0) :shift(s), payrate(p)
 	{
 		Employee::setName(n);
 		Employee::setEmpNumber(e);
