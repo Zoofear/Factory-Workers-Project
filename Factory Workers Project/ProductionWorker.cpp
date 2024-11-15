@@ -46,6 +46,10 @@ void setShift(int x);
 		//Checks to make sure variables are usable
 		ProductionWorker::variableCheck();
 		
+		//Title
+		cout << "Production Worker" << endl;
+
+
 		//Prints out the employee information from the previous class
 		Employee::print();
 
@@ -53,14 +57,14 @@ void setShift(int x);
 		if (shift == 1)
 		{
 			//Outputting the information
-			cout << "Shift:" << setw(3) << "Day" << endl;
+			cout << "Shift: " << "Day" << endl;
 		}
 	
 		//If false, outputs Night for the shift
 		else if (shift == 2)
 		{
 			//Outputting the information
-			cout << "Shift:" << setw(3) << "Night" << endl;
+			cout << "Shift: " << "Night" << endl;
 		}
 
 		else
@@ -73,5 +77,5 @@ void setShift(int x);
 		}
 
 		//Output for the hourly pay
-		cout << "Hourly Pay Rate:" << setw(3) << "$" << fixed << setprecision(2) << payrate << endl;
+		cout << "Hourly Pay Rate: " << "$" << fixed << setprecision(2) << payrate << endl;
 	}

@@ -54,12 +54,12 @@ using namespace std;
 		TeamLeader::variableCheck();
 
 		//Outputs the monthly bonus
-		cout << "Monthly Bonus:" << setw(3) << "$" << setprecision(2) << mobonus << endl;
+		cout << "Monthly Bonus: " << "$" << setprecision(2) << mobonus << endl;
 
 		//Outputs the required training hours
-		cout << "Required Training Hours:" << setw(3) << setprecision(1) << reqthours << endl;
+		cout << "Required Training Hours: " << setprecision(1) << reqthours << endl;
 
 		//Outputs the attended training hnours
-		cout << "Attended Training Hours:" << setw(3) << setprecision(1) << atdthours << endl;
+		cout << "Attended Training Hours: " << setprecision(1) << atdthours << endl;
 
 	}

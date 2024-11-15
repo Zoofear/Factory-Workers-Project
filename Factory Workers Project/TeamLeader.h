@@ -14,7 +14,14 @@ public:
 
 //Constructor
 
-	TeamLeader(double m = 0, double r = 0, double a = 0) : mobonus(m), reqthours(r), atdthours(a) {}
+	TeamLeader(string n = "NAME", int e = 0, string h = "0", int s = 1, double p = 0, double m = 0, double r = 0, double a = 0) : mobonus(m), reqthours(r), atdthours(a)
+	{
+		Employee::setName(n);
+		Employee::setEmpNumber(e);
+		Employee::setHireDate(h);
+		ProductionWorker::setPayrate(p);
+		ProductionWorker::setShift(s);
+	}
 
 //Functions
 

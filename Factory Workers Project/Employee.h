@@ -54,9 +54,9 @@ public:
 //Prints out the classes information
 	void print()
 	{
-		cout << "Name:" << setw(3) << name << endl;
-		cout << "Employee Number:" << setw(3) << empnumber << endl;
-		cout << "Date Hired:" << setw(3) << hiredate << endl;
+		cout << "Name: " << name << endl;
+		cout << "Employee Number: " << empnumber << endl;
+		cout << "Date Hired: "  << hiredate << endl;
 	}
 
 private:
